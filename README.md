@@ -24,11 +24,15 @@ Antes de executar este projeto, certifique-se de ter o seguinte software instala
 
 
 ## Executando o Projeto
-1. Após a conclusão da instalação, você pode iniciar o servidor de desenvolvimento Flask com o seguinte comando:
+1. Após a conclusão da instalação, você deve iniciar o banco de dados com o seguinte comando:
+
+    `flask --app init-db`
+
+3. Agora você pode iniciar o servidor de desenvolvimento Flask com o seguinte comando:
 
     `flask --app flaskr run`
 
-2. O servidor Flask estará em execução localmente em `http://127.0.0.1:5000/`.
+4. O servidor Flask estará em execução localmente em `http://127.0.0.1:5000/`.
 
 ## Tutorial Original
 O tutorial original para este projeto pode ser encontrado na documentação oficial do Flask em [Flask Tutorial: Flaskr](https://flask.palletsprojects.com/en/3.0.x/tutorial/).
